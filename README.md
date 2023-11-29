@@ -20,7 +20,8 @@ Prepare a power BI dashboard by identifying key trends in the given data set and
 
 # Data Analysis using SQL 
 
-#Union all 3 tables 
+**#Union all 3 tables**
+
 WITH revenue_data AS (
     SELECT * FROM hotel.hotel_2018
     UNION ALL
@@ -44,9 +45,10 @@ ROUND(sum((stays_in_week_nights+stays_in_weekend_nights)*adr)) as Total_revenue 
 group by arrival_date_year, hotel;
 
 
-#The first left join connects revenue_data with the hotel.market_segment table based on the common column market_segment.
+**#The first left join connects revenue_data with the hotel.market_segment table based on the common column market_segment.
 #The second left join connects revenue_data with the hotel.mealcost_hotel table based on the common column meal
-The second left join connects revenue_data with the hotel.mealcost_hotel table based on the common column meal
+The second left join connects revenue_data with the hotel.mealcost_hotel table based on the common column meal**
+
 WITH revenue_data AS (
     SELECT * FROM hotel.hotel_2018
     UNION ALL
