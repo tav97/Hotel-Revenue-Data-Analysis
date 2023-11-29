@@ -32,7 +32,8 @@ WITH revenue_data AS (
 SELECT * FROM revenue_data;
 
 
-#calculating revenue and saved it new column Total_revenue, rounding up to an integer
+**#calculating revenue and saved it new column Total_revenue, rounding up to an integer**
+
 WITH revenue_data AS (
     SELECT * FROM hotel.hotel_2018
     UNION ALL
