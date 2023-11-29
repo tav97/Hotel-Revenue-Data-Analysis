@@ -1,7 +1,25 @@
 # Hotel-Revenue-Data-Analysis
 Analyzed Hotel Revenue Trends with SQL
 
-# SQL Code
+# Technologies used 💻
+MYSQL, PowerBI📈I 
+
+# Approach & Project Planning 
+**1. Purpose: What? Why? What do we want to achieve?**
+To unlock sales trends of the past threee years that are not visible before for strategy team for decision support & understand the sales decline and factors influencing the same.
+
+**2. Stake Holders: Who will be involved?**
+-Sales Director,
+-I.T. Team,
+-Customer Service Team,
+-Data & Analytics Team. 
+
+**3. End Result: What do we want to achieve?**
+Prepare a power BI dashboard by identifying key trends in the given data set and make recommendations.
+
+
+# Data Analysis using SQL 
+
 #Union all 3 tables 
 WITH revenue_data AS (
     SELECT * FROM hotel.hotel_2018
@@ -39,3 +57,19 @@ WITH revenue_data AS (
 
 select * from revenue_data left join hotel.market_segment on revenue_data.market_segment=market_segment.market_segment 
 left join hotel.mealcost_hotel on mealcost_hotel.meal=revenue_data.meal;
+
+
+# PowerBI dashboard - Revenue Analysis
+
+![image](https://github.com/tav97/Hotel-Revenue-Data-Analysis/assets/151886105/3863b036-6b92-4fbe-9c44-065729841898)
+
+
+
+
+
+
+
+
+
+
+
