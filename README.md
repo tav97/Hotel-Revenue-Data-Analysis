@@ -2,7 +2,7 @@
 Analyzed Hotel Revenue Trends with SQL
 
 # Technologies used 💻
-MYSQL, PowerBI📈I 
+MYSQL, PowerBI📈
 
 # Approach & Project Planning 
 **1. Purpose: What? Why? What do we want to achieve?**
